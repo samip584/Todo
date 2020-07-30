@@ -18,7 +18,7 @@ class ListItem extends Component{
   render(){
     return(
       <li className = "list__content">
-        <div className = "task__text">{this.props.task}</div>
+        <p className = "task__text">{this.props.task}</p>
         <div className = "task__options clearfix">
           <div className = "update_task"><i class = "fa fa-pencil"></i></div>
           <div className = "delete_task" onClick={(e) => {this.deleteTask()}}><i class = "fa fa-trash"></i></div>

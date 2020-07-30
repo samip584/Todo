@@ -7,6 +7,9 @@
 }
 .search__text{
   float: left;
+  width: 300px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 .search__status{
   float: right;

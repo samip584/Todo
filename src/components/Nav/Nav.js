@@ -29,7 +29,7 @@ class Nav extends Component{
       inProcess : [],
       done : [],
     }
-    if(value !== ""){
+    if(value != ""){
       listSearched.todo = this.props.table.todo.filter(task => task.toLowerCase().includes(value.toLowerCase()))
       listSearched.inProcess = this.props.table.inProcess.filter(task => task.toLowerCase().includes(value.toLowerCase()))
       listSearched.done = this.props.table.done.filter(task => task.toLowerCase().includes(value.toLowerCase()))

@@ -6,7 +6,7 @@ class SearchListItem extends Component{
   render(){
     return(
       <li className = "search__content clearfix">
-        <div className = "search__text">{this.props.task}</div>
+        <p className = "search__text">{this.props.task}</p>
         <div className = "search__status">{this.props.status}</div>
       </li>
     );
