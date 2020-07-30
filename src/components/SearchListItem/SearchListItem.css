@@ -1,0 +1,13 @@
+.search__content{
+  width: 380px;
+  background-color: white;
+  padding: 10px;
+  display: block;
+  margin: 10px;
+}
+.search__text{
+  float: left;
+}
+.search__status{
+  float: right;
+}
