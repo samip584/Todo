@@ -7,10 +7,7 @@
   padding: 15px;
   text-align: left;
   border-radius: 6px;
-  overflow-x: scroll;
-  max-height: 38em;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  
 }
 
 .list:first-child{
@@ -28,4 +25,8 @@
   list-style-position: inside;
   padding: 0;
   display: block;
+  overflow-x: scroll;
+  max-height: 30em;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
